@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #222;
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+}
+
+p {
+    font-size: calc(1vw + 14.3px);
+}
+
+section {
+    /* margin: 0 120px 160px; */
+    margin: 0 calc(10.6vw - 15.8px) calc(11vw + 18.6px);
+}
+
+.logo {
+    margin: 37px 0 85px;
+    width: 295px;
+    height: 41px;
+}
+
+.containerData {
+    display: flex;
+    gap: 30px 161px;
+    flex-wrap: wrap;
+    margin-bottom: 76px;
+}
+
+.title {
+    font-size: 21px;
+    line-height: 140%;
+
+}
+
+.subtitle {
+    font-size: 21px;
+    line-height: 140%;
+    font-weight: 700;
+}
+
+.headerText {
+    font-family: "Chava";
+    font-size: 80px;
+    line-height: 110%;
+    /* 88px */
+    margin-bottom: 40px;
+}
+
+.headerParagraph {
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 140%;
+    /* 37.8px */
+    max-width: 930px;
+    margin-bottom: 20px;
+}
+
+.primary {
+    width: 328px;
+    border-radius: 12px;
+    background: #6E3ABA;
+    padding: 20px 0;
+    border: 2px solid #6E3ABA;
+    font-size: 18px;
+    color: #fff;
+}
+
+.secondary {
+    width: 328px;
+    border-radius: 12px;
+    background: #fff;
+    padding: 20px 0;
+    border: 1px solid #6E3ABA;
+    font-size: 18px;
+    color: #6E3ABA;
+    margin-left: 30px;
+
+}
+
+/* .containerData1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.headerSecond {
+    font-family: TT Hoves;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    width: 769px;
+    height: 136px;
+    margin-bottom: 90px;
+}
+
+
+.photo {
+    /* width: 287px;
+    height: 287px; */
+    /* flex-shrink: 0; */
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 70px; */
+}
+
+.cardData {
+    margin: 0 70px 52px 0;
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.titleh3 {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    /* width: 420px;
+    height: 38px;
+    margin; */
+}
+
+.scndparagraph {
+    /* font-size: 27px; */
+    line-height: 140%;
+    max-width: 450px;
+    margin-bottom: 52px;
+}
+
+/* CourseProgram Start */
+.courseProgramWrapper {
+    border: 2px solid black;
+    padding: 81px 52px 35px 64px;
+    position: relative;
+}
+
+.courseProgramWrapper h2 {
+    font-size: 58px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.lesson {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 34px;
+}
+
+.lesson li {
+    padding: 24px 0;
+    border-bottom: 1px solid black;
+    font-size: 21px;
+    line-height: 140%;
+}
+
+.lesson li:nth-child(1) {
+    padding-top: 0;
+}
+
+.courseProgramWrapper .primary {
+    margin: 0 auto;
+    display: block;
+}
+
+.corner {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+    top: -3px;
+    right: -6px;
+    z-index: 1;
+
+}
+
+.corner img {
+    width: 100%;
+    height: 100%;
+}
+
+.coersProgram .primary {
+    display: block;
+    margin: auto;
+}
+
+@media(max-width:1100px) {}
+
+@media(max-width:920px) {
+    .courseProgramWrapper .primary {
+        display: none;
+    }
+
+    .mobile.primary {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .lesson li:last-child {
+        border-bottom: none;
+    }
+}
