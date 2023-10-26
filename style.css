@@ -99,28 +99,26 @@ section {
     flex-wrap: wrap;
 }
 
-.box {
+/* .box {
     padding-top: 92px;
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
     gap:30 90px;
-}
-
+} */
 
 .box1 {
     padding-top: 80px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    gap:30px 90px;
+    display: flex;
+    /* flex-wrap:wrap; */
+    gap: 30px 90px;
 }
 
 .box2 {
     padding-top: 80px;
-    display:flex;
-    flex-direction:row;
-    gap:30px 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px 90px;
 }
 
 .pic1 {
@@ -247,14 +245,15 @@ section {
 
 
 /*SaleContainer */
-.sale_container{
+.sale_container {
     background-color: #6E3ABA;
     padding-top: calc(4vw + 23.4px);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.sale_container h1{
+
+.sale_container h1 {
     color: #FFF;
     font-family: 'TT Hoves Pro Trial';
     font-size: calc(2vw + 26.5px);
@@ -270,13 +269,14 @@ section {
     gap: calc(6vw + 7.2px);
     margin: 0 auto;
 }
-.time_card {
 
-}
+.time_card {}
+
 .time_card h2 {
     font-size: calc(12.6vw + 13);
     font-family: "Chava";
 }
+
 .time_card p {
     color: #2F1D4E;
     text-align: center;
@@ -344,22 +344,25 @@ section {
 }
 
 /*Feedback Start*/
-.feedback h2{
+.feedback h2 {
     font-size: 58px;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 40px;
 }
-.feedbackWrapper{
+
+.feedbackWrapper {
     display: flex;
     gap: 30px;
 }
-.feedbackCard{
+
+.feedbackCard {
     padding: 50px 20px;
     border-radius: 12px;
     background: #F0F7FD;
 }
-.feedbackUser{
+
+.feedbackUser {
     display: flex;
     gap: 16px;
     align-items: center;
@@ -374,12 +377,12 @@ h2 {
 }
 
 .aboutUs {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px 97px;
     margin-top: 80px;
-    grid-template-areas:    "a b"
-                            "c d";
+    grid-template-areas: "a b"
+        "c d";
 }
 
 .aboutUs img {
@@ -394,7 +397,7 @@ h2 {
 .aboutUs .title {
     font-size: calc(2.6vw + 24px);
     font-weight: 700;
-    letter-spacing:0.58px;
+    letter-spacing: 0.58px;
 }
 
 .aboutUs .value {
