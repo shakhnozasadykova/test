@@ -1,82 +1,82 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #222;
-    font-family: 'TT Hoves Pro Trial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #222;
+  font-family: "TT Hoves Pro Trial", sans-serif;
 }
 
 p {
-    font-size: calc(1vw + 14.3px);
+  font-size: calc(1vw + 14.3px);
 }
 
 section {
-    /* margin: 0 120px 160px; */
-    margin: 0 calc(10.6vw - 15.8px) calc(11vw + 18.6px);
+  /* margin: 0 120px 160px; */
+  /* margin: 0 calc(10.6vw - 15.8px) calc(11vw + 18.6px); */
+  padding: 0 calc(10.6vw - 15.8px);
+  margin-bottom: calc(11vw + 18.6px);
 }
 
 .logo {
-    margin: 37px 0 85px;
-    width: 295px;
-    height: 41px;
+  margin: 37px 0 85px;
+  width: 295px;
+  height: 41px;
 }
 
 .containerData {
-    display: flex;
-    gap: 30px 161px;
-    flex-wrap: wrap;
-    margin-bottom: 76px;
+  display: flex;
+  gap: 30px 161px;
+  flex-wrap: wrap;
+  margin-bottom: 76px;
 }
 
 .title {
-    font-size: 21px;
-    line-height: 140%;
-
+  font-size: 21px;
+  line-height: 140%;
 }
 
 .subtitle {
-    font-size: 21px;
-    line-height: 140%;
-    font-weight: 700;
+  font-size: 21px;
+  line-height: 140%;
+  font-weight: 700;
 }
 
 .headerText {
-    font-family: "Chava";
-    font-size: 80px;
-    line-height: 110%;
-    /* 88px */
-    margin-bottom: 40px;
+  font-family: "Chava";
+  font-size: 80px;
+  line-height: 110%;
+  /* 88px */
+  margin-bottom: 40px;
 }
 
 .headerParagraph {
-    font-size: 27px;
-    font-weight: 300;
-    line-height: 140%;
-    /* 37.8px */
-    max-width: 930px;
-    margin-bottom: 20px;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 140%;
+  /* 37.8px */
+  max-width: 930px;
+  margin-bottom: 20px;
 }
 
 .primary {
-    width: 328px;
-    border-radius: 12px;
-    background: #6E3ABA;
-    padding: 20px 0;
-    border: 2px solid #6E3ABA;
-    font-size: 18px;
-    color: #fff;
+  width: 328px;
+  border-radius: 12px;
+  background: #6e3aba;
+  padding: 20px 0;
+  border: 2px solid #6e3aba;
+  font-size: 18px;
+  color: #fff;
 }
 
 .secondary {
-    width: 328px;
-    border-radius: 12px;
-    background: #fff;
-    padding: 20px 0;
-    border: 1px solid #6E3ABA;
-    font-size: 18px;
-    color: #6E3ABA;
-    margin-left: 30px;
-
+  width: 328px;
+  border-radius: 12px;
+  background: #fff;
+  padding: 20px 0;
+  border: 1px solid #6e3aba;
+  font-size: 18px;
+  color: #6e3aba;
+  margin-left: 30px;
 }
 
 /* .containerData1{
@@ -86,356 +86,337 @@ section {
 } */
 
 .suggestion {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .courseforu {
-    color: var(--typo-black, #222);
-    font-size: 58px;
-    letter-spacing: 0.58px;
-    text-transform: uppercase;
-    width: 769px;
-    font-weight: 500;
-    flex-wrap: wrap;
+  font-size: calc(2.7vw + 24px);
+  letter-spacing: 0.58px;
+  text-transform: uppercase;
+  /* width: 769px; */
+  font-weight: 500;
+  margin-bottom: calc(2.2vw + 31.7px);
 }
 
-/* .box {
-    padding-top: 92px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap:wrap;
-    gap:30 90px;
-} */
+.box {
+  display: flex;
+  gap: calc(3.3vw + 27.6px);
+}
 
 .box1 {
-    padding-top: 80px;
-    display: flex;
-    /* flex-wrap:wrap; */
-    gap: 30px 90px;
+  margin-bottom: calc(1.1vw + 35.8px);
 }
 
-.box2 {
-    padding-top: 80px;
-    display: flex;
-    flex-direction: row;
-    gap: 30px 90px;
+.CardData {
+  flex: 1 1 50%;
 }
 
-.pic1 {
-    width: 254px;
-    height: 254px;
-    flex-shrink: 0;
-
+.CardData img {
+  margin-bottom: 10px;
 }
 
-.heading1 {
-    color: var(--typo-black, #222);
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 140%;
-    text-transform: uppercase;
+.CardData .heading {
+  margin-bottom: calc(1.1vw + 6px);
 }
 
-.paragraph1 {
-    color: var(--typo-black, #222);
-    font-size: 27px;
-    line-height: 140%;
-    width: 450px;
-    padding-top: 20px;
+@media (max-width: 700px) {
+  .box {
+    flex-wrap: wrap;
+  }
 }
 
-.pic2 {
-    width: 254px;
-    height: 254px;
-    flex-shrink: 0;
-}
-
-.heading2 {
-    color: var(--typo-black, #222);
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 140%;
-    text-transform: uppercase;
-}
-
-.paragraph2 {
-    color: var(--typo-black, #222);
-    font-size: 27px;
-    line-height: 140%;
-    width: 450px;
-    padding-top: 20px;
-}
-
-.pic3 {
-    width: 192px;
-    height: 192px;
-    flex-shrink: 0;
-}
-
-.heading3 {
-    color: var(--typo-black, #222);
-    font-family: 'TT Hoves';
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 140%;
-    text-transform: uppercase;
-    width: 434px;
-}
-
-.paragraph3 {
-    color: var(--typo-black, #222);
-    font-size: 27px;
-    line-height: 140%;
-    width: 477px;
-    padding-top: 20px;
-}
-
-.pic4 {
-    width: 150px;
-    height: 150px;
-    flex-shrink: 0;
-}
-
-.heading4 {
-    color: var(--typo-black, #222);
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 140%;
-    text-transform: uppercase;
-}
-
-.paragraph4 {
-    color: var(--typo-black, #222);
-    font-size: 27px;
-    line-height: 140%;
-    width: 477px;
-    padding-top: 20px;
-}
-
-.cardData1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 450px;
+/* .cardData1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 450px;
 }
 
 .cardData2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 450px;
 }
 
 .cardData3 {
-    margin: 0 70px 52px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 432px;
+  margin: 0 70px 52px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 432px;
 }
 
 .cardData4 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-top: 90px;
-    width: 477px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 90px;
+  width: 477px;
+} */
+
+.pic1 {
+  width: 254px;
+  height: 254px;
+  flex-shrink: 0;
 }
 
+.heading {
+  font-size: calc(1vw + 14.3px);
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: uppercase;
+}
 
+.paragraph1 {
+  color: var(--typo-black, #222);
+  font-size: 27px;
+  line-height: 140%;
+  width: 450px;
+  padding-top: 20px;
+}
+
+.pic2 {
+  width: 254px;
+  height: 254px;
+  flex-shrink: 0;
+}
+
+.paragraph2 {
+  color: var(--typo-black, #222);
+  font-size: 27px;
+  line-height: 140%;
+  width: 450px;
+  padding-top: 20px;
+}
+
+.pic3 {
+  width: 192px;
+  height: 192px;
+  flex-shrink: 0;
+}
+
+.paragraph3 {
+  color: var(--typo-black, #222);
+  font-size: 27px;
+  line-height: 140%;
+  width: 477px;
+  padding-top: 20px;
+}
+
+.pic4 {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+
+.paragraph4 {
+  color: var(--typo-black, #222);
+  font-size: 27px;
+  line-height: 140%;
+  width: 477px;
+  padding-top: 20px;
+}
 
 /*SaleContainer */
 .sale_container {
-    background-color: #6E3ABA;
-    padding-top: calc(4vw + 23.4px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #6e3aba;
+  padding-top: calc(4vw + 23.4px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sale_container h1 {
-    color: #FFF;
-    font-family: 'TT Hoves Pro Trial';
-    font-size: calc(2vw + 26.5px);
-    font-weight: 700;
-    letter-spacing: 1.56px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: calc(4vw + 4.6px);
+  color: #fff;
+  font-family: "TT Hoves Pro Trial";
+  font-size: calc(2vw + 26.5px);
+  font-weight: 700;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: calc(4vw + 4.6px);
 }
 
 .time {
-    display: flex;
-    gap: calc(6vw + 7.2px);
-    margin: 0 auto;
+  display: flex;
+  gap: calc(6vw + 7.2px);
+  margin: 0 auto;
 }
 
-.time_card {}
+.time_card {
+}
 
 .time_card h2 {
-    font-size: calc(12.6vw + 13);
-    font-family: "Chava";
+  font-size: calc(12.6vw + 13);
+  font-family: "Chava";
 }
 
 .time_card p {
-    color: #2F1D4E;
-    text-align: center;
-    font-family: 'TT Hoves Pro trial';
-    font-size: 27px;
-    font-weight: 500;
-    text-transform: uppercase;
+  color: #2f1d4e;
+  text-align: center;
+  font-family: "TT Hoves Pro trial";
+  font-size: 27px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 /* CourseProgram Start */
 .courseProgramWrapper {
-    border: 2px solid black;
-    padding: 81px 52px 35px 64px;
-    position: relative;
+  border: 2px solid black;
+  padding: 81px 52px 35px 64px;
+  position: relative;
 }
 
 .courseProgramWrapper h2 {
-    font-size: 58px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 40px;
+  font-size: 58px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 .lesson {
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 34px;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 34px;
 }
 
 .lesson li {
-    padding: 24px 0;
-    border-bottom: 1px solid black;
-    font-size: 21px;
-    line-height: 140%;
+  padding: 24px 0;
+  border-bottom: 1px solid black;
+  font-size: 21px;
+  line-height: 140%;
 }
 
 .lesson li:nth-child(1) {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 .courseProgramWrapper .primary {
-    margin: 0 auto;
-    display: block;
+  margin: 0 auto;
+  display: block;
 }
 
 .corner {
-    width: 100px;
-    height: 100px;
-    position: absolute;
+  width: 100px;
+  height: 100px;
+  position: absolute;
 
-    top: -3px;
-    right: -6px;
-    z-index: 1;
-
+  top: -3px;
+  right: -6px;
+  z-index: 1;
 }
 
 .corner img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .coersProgram .primary {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 /*Feedback Start*/
 .feedback h2 {
-    font-size: 58px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 40px;
+  font-size: 58px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 .feedbackWrapper {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 1000px) {
+  .feedbackWrapper {
+    flex-wrap: wrap;
+  }
 }
 
 .feedbackCard {
-    padding: 50px 20px;
-    border-radius: 12px;
-    background: #F0F7FD;
+  padding: 50px 20px;
+  border-radius: 12px;
+  background: #f0f7fd;
 }
 
 .feedbackUser {
-    display: flex;
-    gap: 16px;
-    align-items: center;
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 
 /*About Us*/
 h2 {
-    font-size: calc(2.6vw + 24px);
-    font-weight: 500;
-    letter-spacing: 0.58px;
-    text-transform: uppercase;
+  font-size: calc(2.6vw + 24px);
+  font-weight: 500;
+  letter-spacing: 0.58px;
+  text-transform: uppercase;
 }
 
 .aboutUs {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px 97px;
-    margin-top: 80px;
-    grid-template-areas: "a b"
-        "c d";
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 97px;
+  margin-top: 80px;
+  grid-template-areas:
+    "a b"
+    "c d";
 }
 
 .aboutUs img {
-    grid-area: a;
+  grid-area: a;
 }
 
 .aboutUs student {
-    grid-area: b;
+  grid-area: b;
 }
 
-
 .aboutUs .title {
-    font-size: calc(2.6vw + 24px);
-    font-weight: 700;
-    letter-spacing: 0.58px;
+  font-size: calc(2.6vw + 24px);
+  font-weight: 700;
+  letter-spacing: 0.58px;
 }
 
 .aboutUs .value {
-    font-size: calc(1vw + 12px);
-    line-height: 140%;
+  font-size: calc(1vw + 12px);
+  line-height: 140%;
 }
 
 .aboutUs .desc {
-    font-size: calc(0.5 vw + 20px);
-    font-weight: 600;
-    line-height: 140%;
-    text-transform: uppercase;
-    grid-area: c;
+  font-size: calc(0.5 vw + 20px);
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: uppercase;
+  grid-area: c;
 }
 
 .aboutUs .infoAboutUs {
-    grid-area: d;
+  grid-area: d;
 }
 
 @media (max-width: 600px) {
-    .aboutUs {
-        grid-template-columns: 1fr;
-    }
+  .aboutUs {
+    grid-template-columns: 1fr;
+  }
 }
 
-@media(max-width:1100px) {}
+@media (max-width: 1100px) {
+}
 
-@media(max-width:920px) {
-    .courseProgramWrapper .primary {
-        display: none;
-    }
+@media (max-width: 920px) {
+  .courseProgramWrapper .primary {
+    display: none;
+  }
 
-    .mobile.primary {
-        display: block;
-        margin-top: 30px;
-    }
+  .mobile.primary {
+    display: block;
+    margin-top: 30px;
+  }
 
-    .lesson li:last-child {
-        border-bottom: none;
-    }
+  .lesson li:last-child {
+    border-bottom: none;
+  }
 }
