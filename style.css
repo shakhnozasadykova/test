@@ -248,8 +248,9 @@ section {
 }
 
 .time_card h2 {
-  font-size: calc(12.6vw + 13);
+  font-size: calc(12.6vw + 13px);
   font-family: "Chava";
+  line-height: 107.5%;
 }
 
 .time_card p {
@@ -259,6 +260,137 @@ section {
   font-size: 27px;
   font-weight: 500;
   text-transform: uppercase;
+  margin-bottom: calc(6.2vw + 8.3px);
+}
+
+.sale_container .secondary {
+  margin-bottom: calc(5.1vw + 21.5px);
+}
+
+/*legend*/
+
+.legend h2{
+  color: #222;
+  font-family: "TT Hoves Pro Trial";
+  font-size: 58px;
+  font-weight: 500;
+  letter-spacing: 0.58px;
+  text-transform: uppercase;
+  margin-bottom: calc(5.5vw + 19.3px);
+}
+
+.legendWrap{
+  display: flex;
+  gap: 0 51px;
+}
+
+.speaker{
+  width: calc(7.8vw + 300px);
+}
+
+.legendProfile  h3 {
+  color: #222;
+  font-family: "TT Hoves Pro Trial";
+  font-size: 48px;
+  font-weight: 700px;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+.legendProfile p{
+  color: #222;
+  font-family: "TT Hoves Pro Trial";
+  font-size: 27px;
+  line-height: 140%;
+  max-width: 566px;
+  margin-bottom: 90px;
+}
+
+.emojiCards {
+  display: flex;
+  gap: 0 90px;
+}
+
+.emojiCard {
+  max-width: 250px;
+}
+
+.emojiCard p{
+  font-family: "TT Hoves Pro Trial";
+  font-size: 21px;
+  max-width: 250px;
+}
+
+@media (max-width:1100px) {
+  .legendWrap{
+    flex-direction: column;
+  }
+  .speaker{
+    width: 100%;
+  }
+  .emojiContainer{
+    display: flex;
+  }
+  .emojiCards {
+    flex-direction: column;
+  }
+  .emojiCards:nth-child(2){
+    flex-direction: column-reverse;
+  }
+
+}
+
+/*coursePackage*/
+.durationTitle{
+  color: #222;
+  font-family: "TT Hoves Pro Trial";
+  font-size: calc(2.6vw + 24px);
+  font-weight: 500;
+  letter-spacing: 0.58px;
+  text-transform: uppercase;
+  margin-bottom: calc(7.7vw + 9px);
+}
+
+.studyPlan{
+ 
+}
+
+.learningProgram{
+  display: flex;
+  gap: 0 120px;
+  margin-bottom: 52px;
+  
+}
+
+.offer{
+  max-width: 400px;
+
+}
+
+.offer h5{
+  color: #222;
+  font-family: "TT Hoves Pro Trial";
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 140%; /* 37.8px */
+  text-transform: uppercase;
+  margin-bottom: calc(1.1vw + 5.8px);
+}
+
+.offer p{
+  color: #222;
+  font-family: "TT Hoves Pro Trial";
+  font-size: 27px;
+  line-height: 140%; /* 37.8px */
+}
+
+@media(max-width:1100px) {
+  .studyPlan{
+    flex-direction: column;
+  }
+  .learningProgram{
+    display: flex;
+  }
 }
 
 /* CourseProgram Start */
